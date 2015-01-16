@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<agent xmlns="http://www.lotus.com/dxl" name="Perry" maintenanceversion="1.0" hide="v3" publicaccess="false" restrictions="unrestricted" activatable="false">
+  <trigger type="scheduled">
+    <schedule type="byminutes" hours="1" minutes="0" onweekends="false" runlocation="specific" runserver="CN=M180ENTW2128/O=local">
+      <startdate>
+        <datetime>20150116</datetime>
+      </startdate>
+    </schedule>
+  </trigger>
+  <documentset type="modified"/>
+  <code event="options">
+    <lotusscript>%REM
+	Agent Perry
+	Created Jan 16, 2015 by Sven Petri/Entwicklung/KRZN/DE
+	Description: Comments for Agent
+%END REM
+Option Public
+Option Declare
+
+
+</lotusscript>
+  </code>
+  <code event="initialize">
+    <lotusscript>Sub Initialize
+	Dim Doof As Boolean
+	doof = True
+End Sub</lotusscript>
+  </code>
+</agent>
