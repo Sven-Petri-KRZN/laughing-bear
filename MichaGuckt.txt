@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<agent name='MichaGuckt' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
+ replicaid='C1257DCF0038947E' hide='v3' publicaccess='false' designerversion='8.5.3'>
+<noteinfo noteid='1c2' unid='5B5F07027E3E57F6C1257DCF0042A582' sequence='3'>
+<created><datetime>20150116T130757,46+01</datetime></created>
+<modified><datetime>20150116T130806,63+01</datetime></modified>
+<revised><datetime>20150116T130806,62+01</datetime></revised>
+<lastaccessed><datetime>20150116T130806,63+01</datetime></lastaccessed>
+<addedtofile><datetime>20150116T130757,77+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sven Petri/OU=Entwicklung/O=KRZN/C=DE</name></updatedby>
+<wassignedby><name>CN=Sven Petri/OU=Entwicklung/O=KRZN/C=DE</name></wassignedby>
+<designchange><datetime>20150116T130806,63+01</datetime></designchange>
+<trigger type='actionsmenu'/>
+<documentset type='selected'/><code event='options'><lotusscript>%REM
+	Agent MichaGuckt
+	Created Jan 16, 2015 by Sven Petri/Entwicklung/KRZN/DE
+	Description: Comments for Agent
+%END REM
+Option Public
+Option Declare
+
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+	'TestCode
+	
+End Sub</lotusscript></code>
+<rundata processeddocs='0' exitcode='0'>
+<agentmodified><datetime>20150116T130806,16+01</datetime></agentmodified></rundata></agent>
+
