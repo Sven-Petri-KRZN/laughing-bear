@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<agent xmlns="http://www.lotus.com/dxl" name="MeinAgent" maintenanceversion="1.0" hide="v3" publicaccess="false">
+  <trigger type="actionsmenu"/>
+  <documentset type="selected"/>
+  <code event="options">
+    <lotusscript>%REM
+	Agent MeinAgent
+	Created Jan 16, 2015 by Sven Petri/Entwicklung/KRZN/DE
+	Description: Comments for Agent
+%END REM
+Option Public
+Option Declare
+
+
+</lotusscript>
+  </code>
+  <code event="initialize">
+    <lotusscript>Sub Initialize
+	Dim Test As Boolean
+	
+	Test = True
+	
+	'Ich finde Text toll!
+	
+End Sub</lotusscript>
+  </code>
+</agent>
